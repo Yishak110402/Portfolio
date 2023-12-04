@@ -1,0 +1,269 @@
+@media(max-width: 1200px){
+  #projects .project img{
+    width: 150px;
+    height: 250px;
+    }
+    #projects .project{
+      margin: auto 1rem;
+    }
+    #projects .project-links{
+      margin: 1rem 0;
+    }
+    .project-links a{
+      margin: 0 1.2rem;
+    }
+  }
+
+@media(max-width: 875px){
+  .smallnav{
+    display:flex;
+  }
+  #navbar{
+    display:none;
+  }
+  #about{
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 5rem;
+  }
+  #about p{
+    font-size: 0.8rem;
+  }
+  #about .about-details-container h2{
+    font-size: 1rem;
+  }
+  #about .about-profile-pic img {
+    width: 200px;
+    height: 250px;
+  }
+  #about .about-profile-pic{
+
+  }
+  #about .about-details{
+    margin-left: -3rem;
+  }
+  #about .about-details-container div{
+    margin: 1rem;
+  }
+  #about .about-profile-pic{
+    margin-right: 6rem;
+    margin-left: 6rem;
+  }
+  #about .about-description{
+    margin: 0 1rem;
+    margin-right: 2rem;
+  }
+  #experience{
+    width: 50%;
+  }
+  #experience h2{
+    font-size: 1.5rem;
+  }
+  .experience-body-container{
+    flex-flow: column wrap;
+    justify-content: center;
+  }
+  .experience-body-container h1{
+    font-size: 1.1rem;
+  }
+  #projects{
+    width: 60%;
+    margin: 0 auto;
+  }
+  #projects .project h2{
+    font-size: 1.4rem;
+    margin: auto 0;
+    padding-top: 8rem;
+  }
+  #projects .projects-container{
+    flex-flow: column wrap;
+  }
+  #projects .project{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+  }
+  #projects .project img{
+    height: 250px;
+  }
+  #projects .project-links{
+    flex-flow: column wrap;
+    justify-content: flex-end;
+  }
+  .back-to-top{
+    display:none;
+  }
+  #footer #footer-nav li{
+    margin: 0 0.6rem;
+  }
+}
+@media(max-width: 853px){
+  .profile{
+    /* flex-flow: column wrap; */
+  }
+  .profile-introduction{
+    margin-top: 2rem;
+  }
+  .profile-introduction p{
+    font-size: 1.3rem;
+  }
+  .profile-introduction h1{
+    font-size: 1.7rem;
+  }
+  .profile-introduction .job{
+    font-size: 1.3rem;
+  }
+  .profile-pic{
+    width: 250px;
+    height: 250px;
+  }
+  .profile-files{
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .profile-files a{
+    margin: 0.3rem;
+    font-size: 1.3rem;
+  }
+}
+@media(max-width: 675px){
+  #projects .project{
+    flex-flow: column wrap;
+    justify-content: center;
+    margin: 0.5rem;
+  }
+  #projects .project img{
+    width: 200px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 1rem;
+  }
+  #projects .project h2{
+    margin:0;
+    padding: 0;
+  }
+  #projects .project a{
+    margin: 0.3rem auto;
+    padding: 0.5rem;
+    width: 30%;
+  }
+  #projects .project{
+
+  }
+  .project img{
+
+  }
+  #projects .project *{
+    margin:0;
+    padding:0;
+  }
+}
+@media(max-width: 628px){
+  .profile{
+    flex-flow: column wrap;
+    margin-bottom: 3rem;
+  }
+  .profile .profile-introduction p{
+    font-size: 1rem;
+  }
+  .profile .profile-introduction h1{
+    font-size: 1.2rem;
+  }
+  .profile .profile-files a{
+    width: 30%;
+    margin:0.3rem auto;
+    padding: 1rem 0;
+    font-size: 1rem;
+  }
+  .socials{
+    margin-top: -3rem;
+  }
+
+  #about{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+  }
+  #about .about-profile-pic{
+    display:none;
+  }
+  #about .about-details-container{
+    margin:0;
+    padding: 0;
+  }
+  #about .about-details-container div{
+    margin: 0 0.5rem;
+    margin-bottom: 1rem;
+  }
+  #about .about-body{
+    margin-left: 7rem;
+  }
+  #contact .contact-options img{
+    width: 40px;
+    height: 40px;
+  }
+  #contact .contact-options .email{
+    font-size: 1.3rem;
+  }
+}
+@media(max-width: 580px){
+  #footer #footer-nav a{
+    margin: 0.5rem;
+    padding: 0.6rem 0.1rem;
+  }
+  #footer #footer-nav li{
+    margin:0;
+  }
+}
+@media(max-width: 472px){
+  .profile .socials{
+    margin-top: 0.4rem;
+  }
+  .profile .profile-files a{
+    font-size: 0.8rem;
+  }
+  #experience{
+    width: 85%;
+  }
+  #experience .experience-body h2{
+    font-size: 1rem;
+  }
+  #experience .experience-body-container{
+    font-size: 0.9rem;
+  }
+  #experience .experience-body-container h1{
+    font-size: 1rem;
+  }
+}
+@media(max-width: 400px){
+  #projects .project img{
+    width: 120px;
+    height: 200px;
+  }
+  #projects .project h2{
+    font-size: 1rem;
+    margin-top: 0.6rem;
+  }
+  #projects .project .project-links a{
+    font-size: 1rem;
+    width: 45%;
+    padding: 0.5rem;
+  }
+
+  #footer #footer-nav{
+    margin-bottom: 4rem;
+  }
+  #footer #footer-nav ul{
+    flex-flow: column ;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-left: 9rem;
+  }
+  #footer #footer-nav li{
+    margin: 1rem 0;
+  }
+  #footer p{
+    font-size: 0.9rem;
+  }
+}
