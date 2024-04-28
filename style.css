@@ -250,6 +250,10 @@ a{
   border: 1px solid gray;
   border-radius: 20px;
 }
+.about-description p{
+  text-align: left;
+  margin-bottom: 1rem;
+}
 /* Experience Section */
 
 #experience{
