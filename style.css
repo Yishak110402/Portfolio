@@ -138,14 +138,14 @@ a{
   transition: all 0s ease;
 }
 .close-container{
-  positions: relative;
+  position: relative;
 }
 /* Profile */
-
 .profile-pic{
   width: 350px;
   height: 350px;
   border-radius: 600px;
+  object-fit: cover;
 }
 .profile{
   display: flex;
@@ -224,6 +224,7 @@ a{
   width: 350px;
   height: 350px;
   border-radius: 25px;
+  object-fit: cover;
 }
 .about-body{
   display: flex;
@@ -268,6 +269,7 @@ a{
   background-color: white;
   border: 2px solid gray;
   border-radius: 30px;
+  margin-bottom: 2rem;
 }
 .experience-body h2{
   padding-top: 2rem;
@@ -291,6 +293,8 @@ a{
 .experience-body-container p{
   color: rgb(85,85,85);
 }
+
+
 /* Project Section */
 #projects{
   margin-bottom: 1rem;

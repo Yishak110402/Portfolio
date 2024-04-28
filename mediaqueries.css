@@ -36,9 +36,6 @@
     width: 200px;
     height: 250px;
   }
-  #about .about-profile-pic{
-
-  }
   #about .about-details{
     margin-left: -3rem;
   }
@@ -85,6 +82,7 @@
   }
   #projects .project img{
     height: 250px;
+    object-fit: cover;
   }
   #projects .project-links{
     flex-flow: column wrap;
